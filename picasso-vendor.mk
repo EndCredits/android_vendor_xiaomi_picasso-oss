@@ -292,6 +292,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/picasso/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/xiaomi/picasso/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/xiaomi/picasso/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
+    vendor/xiaomi/picasso/proprietary/vendor/lib/camera/com.qti.sensor.picasso_wide_ov48b2q.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.picasso_wide_ov48b2q.so \
+    vendor/xiaomi/picasso/proprietary/vendor/lib/camera/com.qti.sensormodule.picasso_sunny_wide_ov48b2q.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.picasso_sunny_wide_ov48b2q.bin \
+    vendor/xiaomi/picasso/proprietary/vendor/lib/camera/com.qti.tuned.picasso_48m_sunny_front_depth_gc02m1_mono.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.picasso_48m_sunny_front_depth_gc02m1_mono.bin \
+    vendor/xiaomi/picasso/proprietary/vendor/lib/camera/com.qti.tuned.picasso_48m_sunny_rear_depth_gc02m1_mono.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.picasso_48m_sunny_rear_depth_gc02m1_mono.bin \
+    vendor/xiaomi/picasso/proprietary/vendor/lib/camera/com.qti.tuned.picasso_sunny_wide_ov48b2q.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.picasso_sunny_wide_ov48b2q.bin \
     vendor/xiaomi/picasso/proprietary/vendor/lib/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.camx.chiiqutils.so \
     vendor/xiaomi/picasso/proprietary/vendor/lib/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv2.so \
     vendor/xiaomi/picasso/proprietary/vendor/lib/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv3.so \
@@ -420,6 +425,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.sensor.picasso_rear_depth_gc02m1_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.picasso_rear_depth_gc02m1_mono.so \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.sensor.picasso_s5k3t2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.picasso_s5k3t2.so \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.sensor.picasso_s5k5e9yx04.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.picasso_s5k5e9yx04.so \
+    vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.sensor.picasso_wide_ov48b2q.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.picasso_wide_ov48b2q.so \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.sensormodule.picasso_ofilm_front_depth_gc02m1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.picasso_ofilm_front_depth_gc02m1.bin \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.sensormodule.picasso_ofilm_front_s5k3t2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.picasso_ofilm_front_s5k3t2.bin \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.sensormodule.picasso_ofilm_macro_s5k5e9yx04.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.picasso_ofilm_macro_s5k5e9yx04.bin \
@@ -436,7 +442,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.sensormodule.picasso_sunny_ultra_ov8856.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.picasso_sunny_ultra_ov8856.bin \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.sensormodule.picasso_sunny_v2_wide_imx686.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.picasso_sunny_v2_wide_imx686.bin \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.sensormodule.picasso_sunny_wide_imx686.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.picasso_sunny_wide_imx686.bin \
+    vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.sensormodule.picasso_sunny_wide_ov48b2q.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.picasso_sunny_wide_ov48b2q.bin \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
+    vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.tuned.picasso_48m_sunny_front_depth_gc02m1_mono.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.picasso_48m_sunny_front_depth_gc02m1_mono.bin \
+    vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.tuned.picasso_48m_sunny_rear_depth_gc02m1_mono.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.picasso_48m_sunny_rear_depth_gc02m1_mono.bin \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.tuned.picasso_ofilm_front_depth_gc02m1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.picasso_ofilm_front_depth_gc02m1.bin \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.tuned.picasso_ofilm_front_s5k3t2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.picasso_ofilm_front_s5k3t2.bin \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.tuned.picasso_ofilm_macro_s5k5e9yx04.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.picasso_ofilm_macro_s5k5e9yx04.bin \
@@ -451,6 +460,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.tuned.picasso_sunny_rear_depth_gc02m1_mono.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.picasso_sunny_rear_depth_gc02m1_mono.bin \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.tuned.picasso_sunny_v2_wide_imx686.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.picasso_sunny_v2_wide_imx686.bin \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.tuned.picasso_sunny_wide_imx686.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.picasso_sunny_wide_imx686.bin \
+    vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/com.qti.tuned.picasso_sunny_wide_ov48b2q.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.picasso_sunny_wide_ov48b2q.bin \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/components/com.arcsoft.node.deflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.deflicker.so \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/components/com.arcsoft.node.smoothtransition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.smoothtransition.so \
     vendor/xiaomi/picasso/proprietary/vendor/lib64/camera/components/com.arcsoft.node.superportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.superportrait.so \
