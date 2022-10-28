@@ -33,3 +33,4 @@ is3rdLightWeightSupported=TRUE
 gyroSensitivityLLS=0.04
 gyroSensitivityLLSEnable=FALSE
 FDFilterEngine=FD_Standard_ARM
+MPMGroupIfExactDeviceMatch=TRUE
