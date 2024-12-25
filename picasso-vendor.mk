@@ -450,7 +450,6 @@ PRODUCT_PACKAGES += \
     libsdk_sr \
     libsensorcal \
     libsensorslog \
-    libsn100u_fw-64SYMLINK \
     libsnpe_adsp \
     libsnpe_dsp_domains \
     libsnpe_dsp_domains_system \
@@ -478,8 +477,6 @@ PRODUCT_PACKAGES += \
     libvideofilter_only \
     libvidhance \
     libxmi_high_dynamic_range \
-    libsns_device_mode_skel-64SYMLINK \
-    libsns_low_lat_stream_skel-64SYMLINK \
     sensors.elliptic \
     sensors.ssc \
     sensors.touch \
@@ -521,3 +518,8 @@ PRODUCT_PACKAGES += \
     nv_mac \
     sensors.qti \
     sscrpcd
+
+PRODUCT_PACKAGES += \
+    libsn100u_fw_libsn100u_fw_symlink64 \
+    libsns_device_mode_skel_libsns_device_mode_skel_symlink64 \
+    libsns_low_lat_stream_skel_libsns_low_lat_stream_skel_symlink64

@@ -3561,24 +3561,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsn100u_fw-64SYMLINK",
-	stem: "libsn100u_fw",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libsn100u_fw.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libsnpe_adsp",
 	owner: "xiaomi",
 	strip: {
@@ -4033,44 +4015,6 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libsns_device_mode_skel-64SYMLINK",
-	stem: "libsns_device_mode_skel",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so"],
-			shared_libs: ["libc", "libgcc", ],
-		},
-	},
-	compile_multilib: "64",
-	relative_install_path: "rfsa/adsp",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libsns_low_lat_stream_skel-64SYMLINK",
-	stem: "libsns_low_lat_stream_skel",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so"],
-			shared_libs: ["libc", "libgcc", ],
-		},
-	},
-	compile_multilib: "64",
-	relative_install_path: "rfsa/adsp",
 	prefer: true,
 	soc_specific: true,
 }
@@ -4546,5 +4490,26 @@ cc_prebuilt_binary {
 	},
 	prefer: true,
 	soc_specific: true,
+}
+
+install_symlink {
+	name: "libsn100u_fw_libsn100u_fw_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libsn100u_fw.so",
+	symlink_target: "/vendor/lib/libsn100u_fw.so",
+}
+
+install_symlink {
+	name: "libsns_device_mode_skel_libsns_device_mode_skel_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/rfsa/adsp/libsns_device_mode_skel.so",
+	symlink_target: "/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so",
+}
+
+install_symlink {
+	name: "libsns_low_lat_stream_skel_libsns_low_lat_stream_skel_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/rfsa/adsp/libsns_low_lat_stream_skel.so",
+	symlink_target: "/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so",
 }
 
